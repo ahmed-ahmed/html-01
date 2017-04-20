@@ -1,0 +1,23 @@
+#slider{
+	height: 900px;
+    min-height: 400px;
+    background: url('../img/03.jpg') no-repeat;
+    background-position: cover;
+    padding: 300px 0;
+    color: $primary-color;
+
+    a{
+    	margin-top: 50px;
+    }
+}
+
+
+
+.about-area {
+	margin-top: 20px;
+	padding: 20px;
+	.row {
+		margin-top: 50px;
+	}
+}
+

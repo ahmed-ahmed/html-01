@@ -1,0 +1,28 @@
+.navbar-brand {
+	font-weight: bold;
+	color: $primary-color;
+	// color:blue!important;
+	display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: $logo-font;
+    font-size: 36px;
+    padding: 15px 0;
+}
+.navbar {
+	@include background-opacity($secondary-color, 0.1);
+	color: $primary-color;
+	// border-bottom: solid 1px $primary-color;;
+}
+
+.navbar-nav > li > a {
+	color: $secondary-color;
+
+}
+
+.nav > li.active> a,.nav > li > a:hover, .nav > li > a:focus {
+    @include background-opacity($secondary-color, 0.2);
+	// background: $primary-color;
+	color: $primary-color;
+
+}
